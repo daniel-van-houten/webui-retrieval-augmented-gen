@@ -109,8 +109,6 @@ def input_modifier(string):
     
     source_documents = []
 
-    shared.logger.info(params)
-
     # If collection could not be loaded, just return the input
     if not params['enabled'] or CHROMA_CLIENT is None:
         return string
