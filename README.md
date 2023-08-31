@@ -22,11 +22,11 @@ This extension designed to enhance the capabilities of the [Text Generation Web 
 The functionality of this extension assumes the availability of a live ChromaDB server. For additional details on ChromaDB, please refer to the [Chroma Usage Guide](https://docs.trychroma.com/usage-guide) and the [ChromaDB GitHub]( https://github.com/chroma-core/chroma).
 
 **Quick Local Setup:**  
-To run ChromaDB locally, clone the repository and execute the following Docker command:
+To run ChromaDB locally, clone the ChromaDB repository and execute the following Docker command:
 
 ```docker-compose up -d --build```
 
-Ensure you've also installed the python dependcies from the requirements.txt file. The extension cannot function without them. 
+Ensure you've also installed the python dependencies from the requirements.txt file. The extension cannot function without them. 
 
 
 ## Data Ingestion
